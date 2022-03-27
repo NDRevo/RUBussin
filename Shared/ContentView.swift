@@ -6,11 +6,23 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            BussesMapView()
+                .tabItem {
+                    Image(systemName: "bus.fill")
+                    Text("Busses")
+                }
+            BusListView()
+                .tabItem {
+                    Image(systemName: "list.dash")
+                    Text("Bus List")
+                }
+        }
     }
 }
 
