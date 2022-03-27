@@ -17,6 +17,8 @@
 		56633AA227F0AD08006BD110 /* BussesMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56633AA027F0AD08006BD110 /* BussesMapView.swift */; };
 		56633AA427F0AD28006BD110 /* BusListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56633AA327F0AD28006BD110 /* BusListView.swift */; };
 		56633AA527F0AD28006BD110 /* BusListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56633AA327F0AD28006BD110 /* BusListView.swift */; };
+		56633AA727F0AF0F006BD110 /* RUBBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56633AA627F0AF0F006BD110 /* RUBBus.swift */; };
+		56633AA827F0AF0F006BD110 /* RUBBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56633AA627F0AF0F006BD110 /* RUBBus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,7 @@
 		563DD35927BF539B008DA1B3 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		56633AA027F0AD08006BD110 /* BussesMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BussesMapView.swift; sourceTree = "<group>"; };
 		56633AA327F0AD28006BD110 /* BusListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusListView.swift; sourceTree = "<group>"; };
+		56633AA627F0AF0F006BD110 /* RUBBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RUBBus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				563DD34A27BF539A008DA1B3 /* RUBussinApp.swift */,
+				56633AA627F0AF0F006BD110 /* RUBBus.swift */,
 				563DD34B27BF539A008DA1B3 /* ContentView.swift */,
 				56633AA027F0AD08006BD110 /* BussesMapView.swift */,
 				56633AA327F0AD28006BD110 /* BusListView.swift */,
@@ -187,6 +191,7 @@
 				563DD35C27BF539B008DA1B3 /* ContentView.swift in Sources */,
 				56633AA427F0AD28006BD110 /* BusListView.swift in Sources */,
 				56633AA127F0AD08006BD110 /* BussesMapView.swift in Sources */,
+				56633AA727F0AF0F006BD110 /* RUBBus.swift in Sources */,
 				563DD35A27BF539B008DA1B3 /* RUBussinApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,6 +203,7 @@
 				563DD35D27BF539B008DA1B3 /* ContentView.swift in Sources */,
 				56633AA527F0AD28006BD110 /* BusListView.swift in Sources */,
 				56633AA227F0AD08006BD110 /* BussesMapView.swift in Sources */,
+				56633AA827F0AF0F006BD110 /* RUBBus.swift in Sources */,
 				563DD35B27BF539B008DA1B3 /* RUBussinApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
