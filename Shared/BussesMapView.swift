@@ -21,14 +21,13 @@ struct BussesMapView: View {
         NavigationView{
             Map(coordinateRegion: $coordinateRegion, annotationItems: busList) { bus in
                 MapAnnotation(coordinate: bus.busLocation) {
-                    Circle()
+                    Image(systemName: "bus.fill")
                         .foregroundColor(.red)
                         .frame(width: 20, height: 20, alignment: .center)
                 }
             }
             .navigationTitle("RU Bussin")
             .ignoresSafeArea()
-        
         }
     }
 }
