@@ -10,7 +10,7 @@ import SwiftUI
 struct BusListView: View {
     var body: some View {
         List{
-            //Input stuff
+            Text("hello")
         }
     }
 }
